@@ -1,6 +1,6 @@
 # RPi Kiosk Slideshow a.k.a RPi Digital Signage
 
-*WIP*
+*WIP... Still working on it :)*
 
 [ Google Drive ] + [ Linux Systemd ] + [ Chromium kiosk ] = A raspberry Pi that's always showing fresh slides a.k.a digital signage
 

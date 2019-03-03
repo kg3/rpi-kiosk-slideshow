@@ -1,4 +1,4 @@
-# Description
+# RPi Kiosk Slideshow a.k.a RPi Digital Signage
 
 *WIP*
 
@@ -27,10 +27,12 @@ This script will remove all of Raspian's learning environment and extra software
 This install script and other files will be placed in the home directory. Keep them there after the install so if in the future there is problems they can be used from a maintanence file placed in the google-drive shared folder.
 
 ## First connect to the wifi
+
     TODO: auto-connect from a file on google drive with wifi/pass.
 
 ## Authenticate with Google Drive
-    Specify the folder to use inside the `kiosk.conf` file
+
+Specify the folder to use inside the `kiosk.conf` file
 
 # Using
 
@@ -42,8 +44,11 @@ If things aren't setup correctly try manually adding a file in the home director
 # Work In Progress
 
 TODOs
-    - `kiosk.conf` pre-specify google drive share folder
-    - `maintanence` place a file like this in the google drive and it will tell the install script to reset default settings and try a different wifi password
-    - `wifi-auto` place this file with wifi-name and password on separate lines for the rpi to auto connect onto this wifi
-    - `desktop-notify` for issues stop the slideshow and write a message on the desktop with debug info. Restore image after a reboot.
-    
+
+- `kiosk.conf` pre-specify google drive share folder
+
+- `maintanence` place a file like this in the google drive and it will tell the install script to reset default settings and try a different wifi password
+
+- `wifi-auto` place this file with wifi-name and password on separate lines for the rpi to auto connect onto this wifi
+
+- `desktop-notify` for issues stop the slideshow and write a message on the desktop with debug info. Restore image after a reboot.

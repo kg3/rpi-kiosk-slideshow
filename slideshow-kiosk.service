@@ -1,0 +1,17 @@
+[Unit]
+Description=Slideshow Kiosk
+After=graphical.target
+ConditionPathExists=!/home/pi/notify_pi_needs_attention
+
+[Service]
+ExecStart=/bin/bash ~/start-slideshow-kiosk.sh -s
+ExecReload=/bin/bash ~/start-slideshow-kiosk.sh -r
+Environment=DISPLAY=":0"
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+Alias=slideshow-kiosk.service

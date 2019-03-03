@@ -18,9 +18,9 @@ A cronjob regularly (default 4 hours) regenerates the slideshow.html with the ne
 
 For stability, the system is slimmed down and monthly updates are performed. If there's any problems the slideshow will stop runnning and the desktop image will change to tell you an error message. Which you can fix via putting in a maintanence file on the google drive folder, or the classic rpi keyboard and mouse or ssh.
 
-# Install
+# Install onto Raspberry Pi 3
 
-0. Install Raspbian on an SD card: [with Raspbian Noob](https://projects.raspberrypi.org/en/projects/noobs-install). Expand the SD. Plug into Raspbian
+0. Install Raspbian on an SD card: [with Raspbian Noob](https://projects.raspberrypi.org/en/projects/noobs-install). Plug into Raspberry Pi.
 
 1. Clone this Repo in the home directory; `cd ~/; git clone https://github.com/kg3/rpi-kiosk-slideshow.git`
 

@@ -33,7 +33,7 @@ messageColor=$WHT   # color of basic message output
 errorColor=$RED     # color of error messages
 DEBUG=''            # run script in debug mode
 version=1.0
-baseurl=http://192.168.11.103/rpi-slideshow-kiosk/
+baseurl=https://raw.githubusercontent.com/kg3/rpi-kiosk-slideshow/master/
 
 ###################################
 #   common functions              #
@@ -233,7 +233,6 @@ install () {
     newwallpaper=~/wallpaper.jpg
     lxdeConfig=~/.config/pcmanfm/LXDE-pi/desktop-items-0.conf
     dependencies=( git golang-go ufw imagemagick xdotool )
-    scriptsLocation='http://192.168.11.103/rpi-slideshow-kiosk/'
     unneeded=( "timidity" "zenity*" "triggerhappy" "samba*" "galculator" "cups-*" "minecraft-pi*" "*libreoffice*" "squeak*" "scratch*" "wolfram*" "*bluej*" "*geany*" "*greenfoot*" "*nodered*" "*sense*" "*sonic*" "*thonny*" "*claws-mail*" )
     dumbRaspbianFolders=( '~/Documents/' '~/Music/' '~/Pictures/' '~/Public/' '~/python_games/' '~/Templates/' '~/Videos/' '~/Downloads/' )
 
